@@ -1,0 +1,102 @@
+*{
+
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Karla', sans-serif;
+    width: 85%;
+    margin-inline : auto;
+    max-width: 1025px;
+    background-color: hsl(204, 43%, 93%);
+    font-size: 16px;
+}
+
+header{
+    background-color: white;
+    margin-block-start: 5rem;
+    border-radius: 5px 5px 0px 0px;
+    padding-inline: 1.4rem;  
+}
+
+header h2{
+    font-weight: 700;
+    color:hsl(179, 62%, 43%);
+    padding-block: 1.7rem;
+}
+
+header h4{
+    font-weight: 700;
+    color: hsl(71, 73%, 54%);
+    padding-block-end: 1.5rem;
+}
+
+header p{
+    font-weight: 400;
+    color: hsl(218, 22%, 67%);
+    padding-block-end: 1.8rem;
+    line-height: 1.5rem;
+}
+article{
+    background-color: hsl(179, 62%, 43%);
+   padding-inline: 1.4rem;
+}
+
+article h3{
+    padding-block: 1.7rem;
+    color: white;
+    font-weight: 700;
+}
+
+article h1{
+    color: white;
+    font-weight: 700;
+    padding-block-end: 0.9rem;
+    font-size: 16px;
+}
+
+article p{
+    font-weight: 400;
+    color: white;
+    padding-block-end: 1.5rem;
+}
+.per{
+    font-size: 12px;
+    font-family: 'Karla', sans-serif;
+    color: rgb(146, 199, 199);
+}
+
+button{
+    background-color: hsl(71, 73%, 54%);
+    padding: 1rem 6.7rem;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-block-end: 1.7rem;
+}
+
+
+aside{
+    background-color: hsl(179, 47%, 52% );
+    padding-inline: 1.4rem;
+    border-radius: 0px 0px 5px 5px;
+    margin-block-end: 5rem;
+}
+
+aside h1{
+    font-weight: 700;
+    padding-block: 1.7rem;
+    color: white;
+}
+
+aside p{
+    padding-block-end: 1.9rem;
+    color: white;
+    line-height: 1.5rem;
+}
+#sign-up:hover{
+    transform: scale(0.8);
+    color: blue;
+}
